@@ -41,7 +41,7 @@ This plugin is for use with Puship.com, it's quickly enable support for Push Not
 ##<a name="automatic_installation"></a>Automatic Installation
 
 
-**Note:** For each service supported - ADM, APNS, GCM or MPNS - you may need to download the SDK and other support files. See the [Manual Installation](#manual_installation) instructions below for more details about each platform.
+**Note:** For each service supported - APNS, GCM or MPNS - you may need to download the SDK and other support files.
 
 ### Cordova
 
