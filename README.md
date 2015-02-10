@@ -71,7 +71,7 @@ The plugin is based on [plugman](https://github.com/apache/cordova-plugman) and 
 plugman install --platform [PLATFORM] --project [TARGET-PATH] --plugin [PLUGIN-PATH]
 
 where
-	[PLATFORM] = ios, amazon-fireos, android or wp8
+	[PLATFORM] = ios, android or wp8
 	[TARGET-PATH] = path to folder containing your phonegap project
 	[PLUGIN-PATH] = path to folder containing this plugin
 ```
