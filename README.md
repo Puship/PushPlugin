@@ -4,7 +4,7 @@
 
 ## DESCRIPTION
 
-This plugin is for use with Puship.com, it's quickly enable support for Push Notifications on phonegap applications.
+This plugin is for use with [Puship.com](http://www.puship.com), it's quickly enable support for Push Notifications on phonegap applications.
 
 **Important** - Push notifications are intended for real devices. The registration process will fail on the iOS simulator. Notifications can be made to work on the Android Emulator, however doing so requires installation of some helper libraries.
 
