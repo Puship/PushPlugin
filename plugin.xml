@@ -128,7 +128,7 @@
 
 		<header-file src="src/ios/AppDelegate+notification.h" />
 		<header-file src="src/ios/PushPlugin.h" />
-		<resource-file src="www/res" target="res" />
+		<resource-file src="www/res/sounds" target="sounds" />
 
 	</platform>
 
