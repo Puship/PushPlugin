@@ -147,7 +147,7 @@ receivedEvent: function(id) {
     }
 ```
 
-Then Run your app and start send push notification!
+Then run your app and start send push notifications!
 
 ...and yes, this is lovely all!
 
