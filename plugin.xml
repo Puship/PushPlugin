@@ -29,9 +29,9 @@
 	<engines>
 		<engine name="cordova" version=">=3.0.0" />
 	</engines>
-<!-- 
+
 	<asset src="www/res" target="res" />
-	android -->
+	<!-- android -->
 	<platform name="android">
 
 		<config-file target="res/xml/config.xml" parent="/*">
@@ -128,7 +128,7 @@
 
 		<header-file src="src/ios/AppDelegate+notification.h" />
 		<header-file src="src/ios/PushPlugin.h" />
-		<resource-file src="www/res/sounds/" target="Resources/" />
+		<resource-file src="www/res/sounds/ache.mp3" target="Resources/ache.mp3" />
 
 	</platform>
 
