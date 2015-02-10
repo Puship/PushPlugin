@@ -81,7 +81,7 @@ where
 Go to puship.com and create your Free account. configure your application from dashboard an then add this code to your index.js:
 
 
-'''
+```
 receivedEvent: function(id) {
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
@@ -145,7 +145,7 @@ receivedEvent: function(id) {
 		}
 		
     }
-'''
+```
 
 This is lovely all!
 
