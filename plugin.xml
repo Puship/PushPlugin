@@ -128,6 +128,7 @@
 
 		<header-file src="src/ios/AppDelegate+notification.h" />
 		<header-file src="src/ios/PushPlugin.h" />		
+
 		<resource-file src="www/res/sounds/abduction.mp3" target="Resources/abduction.mp3" />
 		<resource-file src="www/res/sounds/ache.mp3" target="Resources/ache.mp3" />
 		<resource-file src="www/res/sounds/a-ha-moment.mp3" target="Resources/a-ha-moment.mp3" />
@@ -140,6 +141,82 @@
 		<resource-file src="www/res/sounds/base.mp3" target="Resources/base.mp3" />
 		<resource-file src="www/res/sounds/blocker.mp3" target="Resources/blocker.mp3" />
 		<resource-file src="www/res/sounds/braking.mp3" target="Resources/braking.mp3" />
+		<resource-file src="www/res/sounds/cable-unplugged.mp3" target="Resources/cable-unplugged.mp3" />
+		<resource-file src="www/res/sounds/cause-and-effect.mp3" target="Resources/cause-and-effect.mp3" />
+		<resource-file src="www/res/sounds/chafing.mp3" target="Resources/chafing.mp3" />
+		<resource-file src="www/res/sounds/closed.mp3" target="Resources/closed.mp3" />
+		<resource-file src="www/res/sounds/code.mp3" target="Resources/code.mp3" />
+		<resource-file src="www/res/sounds/coins.mp3" target="Resources/coins.mp3" />
+		<resource-file src="www/res/sounds/come-to-daddy.mp3" target="Resources/come-to-daddy.mp3" />
+		<resource-file src="www/res/sounds/communication-channel.mp3" target="Resources/communication-channel.mp3" />
+		<resource-file src="www/res/sounds/credulous.mp3" target="Resources/credulous.mp3" />
+		<resource-file src="www/res/sounds/croak.mp3" target="Resources/croak.mp3" />
+		<resource-file src="www/res/sounds/cyberincident.mp3" target="Resources/cyberincident.mp3" />
+		<resource-file src="www/res/sounds/decay.mp3" target="Resources/decay.mp3" />
+		<resource-file src="www/res/sounds/does-not-behave.mp3" target="Resources/does-not-behave.mp3" />
+		<resource-file src="www/res/sounds/dropped-spinner.mp3" target="Resources/dropped-spinner.mp3" />
+		<resource-file src="www/res/sounds/electronic.mp3" target="Resources/electronic.mp3" />
+		<resource-file src="www/res/sounds/end-point-reached.mp3" target="Resources/end-point-reached.mp3" />
+		<resource-file src="www/res/sounds/error-3.mp3" target="Resources/error-3.mp3" />
+		<resource-file src="www/res/sounds/et-voila.mp3" target="Resources/et-voila.mp3" />
+		<resource-file src="www/res/sounds/fallbackring.ogg" target="Resources/fallbackring.ogg" />
+		<resource-file src="www/res/sounds/fallin.mp3" target="Resources/fallin.mp3" />
+		<resource-file src="www/res/sounds/fast-turnaround.mp3" target="Resources/fast-turnaround.mp3" />
+		<resource-file src="www/res/sounds/finger-push.mp3" target="Resources/finger-push.mp3" />
+		<resource-file src="www/res/sounds/genuinely-interested.mp3" target="Resources/genuinely-interested.mp3" />
+		<resource-file src="www/res/sounds/gets-in-the-way.mp3" target="Resources/gets-in-the-way.mp3" />
+		<resource-file src="www/res/sounds/good-morning.mp3" target="Resources/good-morning.mp3" />
+		<resource-file src="www/res/sounds/gummy-sweep.mp3" target="Resources/gummy-sweep.mp3" />
+		<resource-file src="www/res/sounds/happy-ending.mp3" target="Resources/happy-ending.mp3" />
+		<resource-file src="www/res/sounds/hey-im-here-too.mp3" target="Resources/hey-im-here-too.mp3" />
+		<resource-file src="www/res/sounds/hiccup.mp3" target="Resources/hiccup.mp3" />
+		<resource-file src="www/res/sounds/inquisitiveness.mp3" target="Resources/inquisitiveness.mp3" />
+		<resource-file src="www/res/sounds/in-your-plate.mp3" target="Resources/in-your-plate.mp3" />
+		<resource-file src="www/res/sounds/i-saw-you.mp3" target="Resources/i-saw-you.mp3" />
+		<resource-file src="www/res/sounds/job-done.mp3" target="Resources/job-done.mp3" />
+		<resource-file src="www/res/sounds/jubilation.mp3" target="Resources/jubilation.mp3" />
+		<resource-file src="www/res/sounds/just-like-magic.mp3" target="Resources/just-like-magic.mp3" />
+		<resource-file src="www/res/sounds/just-like-that.mp3" target="Resources/just-like-that.mp3" />
+		<resource-file src="www/res/sounds/knob.mp3" target="Resources/knob.mp3" />
+		<resource-file src="www/res/sounds/long-chime-sound.mp3" target="Resources/long-chime-sound.mp3" />
+		<resource-file src="www/res/sounds/machine-poo.mp3" target="Resources/machine-poo.mp3" />
+		<resource-file src="www/res/sounds/may-i-have-your-attention.mp3" target="Resources/may-i-have-your-attention.mp3" />
+		<resource-file src="www/res/sounds/me.mp3" target="Resources/me.mp3" />
+		<resource-file src="www/res/sounds/munchausen.mp3" target="Resources/munchausen.mp3" />
+		<resource-file src="www/res/sounds/net.mp3" target="Resources/net.mp3" />
+		<resource-file src="www/res/sounds/no-trespassing.mp3" target="Resources/no-trespassing.mp3" />
+		<resource-file src="www/res/sounds/no-way.mp3" target="Resources/no-way.mp3" />
+		<resource-file src="www/res/sounds/oh-really.mp3" target="Resources/oh-really.mp3" />
+		<resource-file src="www/res/sounds/on-serious-matters.mp3" target="Resources/on-serious-matters.mp3" />
+		<resource-file src="www/res/sounds/oringz-pack-nine-15.mp3" target="Resources/oringz-pack-nine-15.mp3" />
+		<resource-file src="www/res/sounds/pedantic.mp3" target="Resources/pedantic.mp3" />
+		<resource-file src="www/res/sounds/pizzicato.mp3" target="Resources/pizzicato.mp3" />
+		<resource-file src="www/res/sounds/pluck.mp3" target="Resources/pluck.mp3" />
+		<resource-file src="www/res/sounds/professionals.mp3" target="Resources/professionals.mp3" />
+		<resource-file src="www/res/sounds/pull-back.mp3" target="Resources/pull-back.mp3" />
+		<resource-file src="www/res/sounds/put-down.mp3" target="Resources/put-down.mp3" />
+		<resource-file src="www/res/sounds/question-raised.mp3" target="Resources/question-raised.mp3" />
+		<resource-file src="www/res/sounds/scissors.mp3" target="Resources/scissors.mp3" />
+		<resource-file src="www/res/sounds/see-im-smart.mp3" target="Resources/see-im-smart.mp3" />
+		<resource-file src="www/res/sounds/served.mp3" target="Resources/served.mp3" />
+		<resource-file src="www/res/sounds/shut-your-mouth.mp3" target="Resources/shut-your-mouth.mp3" />
+		<resource-file src="www/res/sounds/slap.mp3" target="Resources/slap.mp3" />
+		<resource-file src="www/res/sounds/solemn.mp3" target="Resources/solemn.mp3" />
+		<resource-file src="www/res/sounds/strongly-attached.mp3" target="Resources/strongly-attached.mp3" />
+		<resource-file src="www/res/sounds/surprise-on-a-spring.mp3" target="Resources/surprise-on-a-spring.mp3" />
+		<resource-file src="www/res/sounds/swift.mp3" target="Resources/swift.mp3" />
+		<resource-file src="www/res/sounds/thats-a-no.mp3" target="Resources/thats-a-no.mp3" />
+		<resource-file src="www/res/sounds/thats-nasty.mp3" target="Resources/thats-nasty.mp3" />
+		<resource-file src="www/res/sounds/the-squeaky-wheel-gets-the-grease.mp3" target="Resources/the-squeaky-wheel-gets-the-grease.mp3" />
+		<resource-file src="www/res/sounds/trained.mp3" target="Resources/trained.mp3" />
+		<resource-file src="www/res/sounds/what.mp3" target="Resources/what.mp3" />
+		<resource-file src="www/res/sounds/whatever.mp3" target="Resources/whatever.mp3" />
+		<resource-file src="www/res/sounds/will-you.mp3" target="Resources/will-you.mp3" />
+		<resource-file src="www/res/sounds/worthwhile.mp3" target="Resources/worthwhile.mp3" />
+		<resource-file src="www/res/sounds/yep.mp3" target="Resources/yep.mp3" />
+		<resource-file src="www/res/sounds/you-know.mp3" target="Resources/you-know.mp3" />
+		<resource-file src="www/res/sounds/your-turn.mp3" target="Resources/your-turn.mp3" />
+		<resource-file src="www/res/sounds/you-wouldnt-believe.mp3" target="Resources/you-wouldnt-believe.mp3" />
 
 	</platform>
 
