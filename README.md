@@ -76,4 +76,76 @@ where
 	[PLUGIN-PATH] = path to folder containing this plugin
 ```
 
+##<a name="automatic_installation"></a>How to use:
+
+Go to puship.com and create your Free account. configure your application from dashboard an then add this code to your index.js:
+
+
+'''
+receivedEvent: function(id) {
+        var parentElement = document.getElementById(id);
+        var listeningElement = parentElement.querySelector('.listening');
+        var receivedElement = parentElement.querySelector('.received');
+
+        listeningElement.setAttribute('style', 'display:none;');
+        receivedElement.setAttribute('style', 'display:block;');
+
+        console.log('Received Event: ' + id);
+		
+		var Puship;
+
+		Puship = window.plugins.puship;
+		
+
+		Puship.EnableLog = true;
+		Puship.PushipAppId = "YOUR-PUSHIP-APP-CODE"; // I.E.: puship_id = "h1mCVGaP9dtGnwG"
+		
+		
+		Puship.Common.OnPushReceived(function(event) {
+			alert("Push received: " + event.notification.Alert);
+			alert("Push param1: " + event.notification.Param1);
+			alert("Push sound: " + event.notification.Sound);
+		});
+
+		if (Puship.Common.GetCurrentOs()==Puship.OS.ANDROID){
+			var GCMCode = "YOUR-GCM-SENDER-ID"; // (if you are supporting Android) This is the senderID provided by Google. I.E.: "28654934133"
+			Puship.GCM.Register(GCMCode,
+			{
+				successCallback: function (pushipresult){
+					navigator.notification.alert("device registered with DeviceId:" + pushipresult.DeviceId);
+					
+				},
+				failCallback: function (pushipresult){
+					navigator.notification.alert("error during registration: "+ JSON.stringify(pushipresult));
+				}
+			});
+		} else if (Puship.Common.GetCurrentOs()==Puship.OS.IOS){
+			Puship.APNS.Register(
+			{
+				successCallback: function (pushipresult){
+					navigator.notification.alert("device registered with DeviceId:" + pushipresult.DeviceId);
+				},
+				failCallback: function (pushipresult){
+					navigator.notification.alert("error during registration: "+ JSON.stringify(pushipresult));
+				}
+			});
+		} else if (Puship.Common.GetCurrentOs()==Puship.OS.WP){
+			Puship.WP.Register(
+			{
+				successCallback: function (pushipresult){
+					navigator.notification.alert("device registered with DeviceId:" + pushipresult.DeviceId);
+					
+				},
+				failCallback: function (pushipresult){
+					navigator.notification.alert("error during registration: "+ JSON.stringify(pushipresult));
+				}
+			});
+		} else {
+			Console.log("Not supported platform");
+		}
+		
+    }
+'''
+
+This is lovely all!
 
