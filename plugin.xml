@@ -127,8 +127,19 @@
 		<source-file src="src/ios/PushPlugin.m" />
 
 		<header-file src="src/ios/AppDelegate+notification.h" />
-		<header-file src="src/ios/PushPlugin.h" />
+		<header-file src="src/ios/PushPlugin.h" />		
+		<resource-file src="www/res/sounds/abduction.mp3" target="Resources/abduction.mp3" />
 		<resource-file src="www/res/sounds/ache.mp3" target="Resources/ache.mp3" />
+		<resource-file src="www/res/sounds/a-ha-moment.mp3" target="Resources/a-ha-moment.mp3" />
+		<resource-file src="www/res/sounds/all-of-a-sudden.mp3" target="Resources/all-of-a-sudden.mp3" />
+		<resource-file src="www/res/sounds/are-you-kidding.mp3" target="Resources/are-you-kidding.mp3" />
+		<resource-file src="www/res/sounds/argh-my-eyes.mp3" target="Resources/argh-my-eyes.mp3" />
+		<resource-file src="www/res/sounds/a-taste-of-the-whip.mp3" target="Resources/a-taste-of-the-whip.mp3" />
+		<resource-file src="www/res/sounds/attracted.mp3" target="Resources/attracted.mp3" />
+		<resource-file src="www/res/sounds/awareness.mp3" target="Resources/awareness.mp3" />
+		<resource-file src="www/res/sounds/base.mp3" target="Resources/base.mp3" />
+		<resource-file src="www/res/sounds/blocker.mp3" target="Resources/blocker.mp3" />
+		<resource-file src="www/res/sounds/braking.mp3" target="Resources/braking.mp3" />
 
 	</platform>
 
