@@ -117,7 +117,7 @@ public class GCMIntentService extends GCMBaseIntentService {
 				//added for support online build
 				File file = new File(target);
 				if(!file.exists()){
-					target = "sounds/" + sound;
+					target = "www/sounds/" + sound;
 					Log.e(TAG, "target new sound path: " + target);
 				}
 				
