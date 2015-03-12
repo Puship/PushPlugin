@@ -113,6 +113,14 @@ public class GCMIntentService extends GCMBaseIntentService {
 			try {
 				String target = "www/res/sounds/" + sound;
 				Log.e(TAG, "target sound path: " + target);
+				
+				//added for support online build
+				File file = new File(target);
+				if(!file.exists()){
+					target = "sounds/" + sound;
+					Log.e(TAG, "target new sound path: " + target);
+				}
+				
 				//ur= Uri.fromFile(context.getFileStreamPath(target).getAbsoluteFile());
 				AssetFileDescriptor afd= am.openFd(target);
 				
