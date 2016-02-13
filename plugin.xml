@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads"
     id="com.phonegap.plugins.Puship"
-    version="1.0.4">
+    version="1.0.5">
 
   <name>Puship</name>
 	<author>SoftRay S.r.l.</author>
