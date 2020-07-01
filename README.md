@@ -1,4 +1,6 @@
-# Push Notifications Plugin for Android, iOS and WP8
+# [DEPRECATED] Push Notifications Plugin for Android, iOS and WP8
+
+### _This plugin is deprecated, i.e. it is no longer maintained. Going forward additional features and bug fixes will be added to the new [puship-plugin](https://github.com/Puship/puship-plugin) repository._
 
 ---
 
